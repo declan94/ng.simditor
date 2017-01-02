@@ -1,0 +1,25 @@
+{
+  "name": "ngSimditor",
+  "authors": [
+    "declan <chenye94@qq.com>"
+  ],
+  "description": "angular version of simditor",
+  "main": "dist/ng-simditor.min.js",
+  "keywords": [
+    "angular",
+    "simditor"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Declan94/ngSimditor",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "simditor": "^2.3.6",
+    "angular": "^1.6.1"
+  }
+}
