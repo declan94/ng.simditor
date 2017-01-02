@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ng.Simditor</title>
+
+    <link rel="stylesheet" href="bower_components/simditor/styles/simditor.css" />
+    <link rel="stylesheet" href="example/main.css" />
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/simple-module/lib/module.js"></script>
+    <script src="bower_components/simple-hotkeys/lib/hotkeys.js"></script>
+    <script src="bower_components/simple-uploader/lib/uploader.js"></script>
+    <script src="bower_components/simditor/lib/simditor.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="src/ng-simditor.js"></script>
+    <script src="example/app.js"></script>
+    <script src="example/controller.js"></script>
+</head>
+<body ng-app="ngSimditorExample" ng-controller="mainCtrl">
+    <h1><a href="https://github.com/Declan94/ng.simditor" target="_blank">Ng.Simditor</a></h1>
+    <p>
+        <iframe src="https://ghbtns.com/github-btn.html?user=ghostboyzone&repo=angular-simditor&type=star&count=true" frameborder="0" scrolling="0" width="80px" height="20px"></iframe>
+        <iframe src="https://ghbtns.com/github-btn.html?user=ghostboyzone&repo=angular-simditor&type=fork&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
+        <iframe src="https://ghbtns.com/github-btn.html?user=ghostboyzone&type=follow&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+    </p>
+    <p>Angular Version Of Simditor</p>
+    <h1>Install</h1>
+    <pre><code>bower install ng.simditor --save</code></pre>
+    <h1>Usage</h1>
+    <pre><code>angular.module('yourApp', ['ng.simditor']);</code></pre>
+    <pre><code>&lt;simditor ng-model="content" config="simditorConfig"&gt;&lt;/simditor&gt;</code></pre>
+    <h1>Demo</h1>
+    <simditor config="simditorConfig" ng-model='content'></simditor>
+    <h4>content: </h4>
+    <p>{{content}}</p>
+    <h4>simditorConfig: </h4>
+    <pre ng-bind-html="syntaxHighlight(simditorConfig)"></pre>
+</body>
+</html>
