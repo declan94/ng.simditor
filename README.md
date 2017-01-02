@@ -1,6 +1,9 @@
 # ng.simditor
 angular rich text editor using simditor
 
+## Demo:
+https://declan94.github.io/ng.simditor/
+
 ## Install:
 ```
 bower install ng.simditor --save
@@ -56,10 +59,6 @@ angular
             pasteImage: false,
             cleanPaste: false,
             upload: false
-        };
-
-        $scope.logContent = function() {
-            console.info("content", $scope.content);
         };
 
     });
