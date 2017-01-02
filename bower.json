@@ -4,7 +4,7 @@
     "declan <chenye94@qq.com>"
   ],
   "description": "angular version of simditor",
-  "main": "dist/ng.simditor.js",
+  "main": "dist/ng-simditor.js",
   "keywords": [
     "angular",
     "simditor"
