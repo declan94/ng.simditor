@@ -5,6 +5,7 @@
     <title>ngSimditor Example</title>
 
     <link rel="stylesheet" href="../bower_components/simditor/styles/simditor.css" />
+    <link rel="stylesheet" href="main.css" />
     <script src="../bower_components/jquery/dist/jquery.min.js"></script>
     <script src="../bower_components/simple-module/lib/module.js"></script>
     <script src="../bower_components/simple-hotkeys/lib/hotkeys.js"></script>
@@ -16,7 +17,10 @@
     <script src="controller.js"></script>
 </head>
 <body ng-app="ngSimditorExample" ng-controller="mainCtrl">
-    <button ng-click="logContent()">print content in console</button>
     <simditor config="simditorConfig" ng-model='content'></simditor>
+    <h4>content: </h4>
+    <p>{{content}}</p>
+    <h4>simditorConfig: </h4>
+    <pre ng-bind-html="syntaxHighlight(simditorConfig)"></pre>
 </body>
 </html>

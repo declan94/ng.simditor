@@ -19,7 +19,7 @@ angular.module('ng.simditor')
         return {
             require: "?^ngModel",
             link: function (scope, element, attrs, ngModel) {
-                element.append("<div style='height:300px;'></div>");
+                element.append("<div></div>");
                 var config = scope.$eval(attrs.config) || {};
                 var defaultConfig = {
                     textarea: element.children()[0],
