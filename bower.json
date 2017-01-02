@@ -1,10 +1,10 @@
 {
-  "name": "ngSimditor",
+  "name": "ng.simditor",
   "authors": [
     "declan <chenye94@qq.com>"
   ],
   "description": "angular version of simditor",
-  "main": "dist/ng-simditor.min.js",
+  "main": "dist/ng.simditor.js",
   "keywords": [
     "angular",
     "simditor"

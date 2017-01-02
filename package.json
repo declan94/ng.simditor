@@ -1,0 +1,14 @@
+{
+  "name": "ng.simditor",
+  "private": false,
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-ng-annotate": "^1.0.0",
+    "gulp-uglify": "^1.2.0",
+    "rimraf": "^2.4.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
