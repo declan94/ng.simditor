@@ -13,7 +13,7 @@ bower install ng.simditor --save
 <script src="bower_components/simple-hotkeys/lib/hotkeys.js"></script>
 <script src="bower_components/simditor/lib/simditor.js"></script>
 <script src="bower_components/angular/angular.min.js"></script>
-<script src="bower_components/ng.simditor/dist/js/ng.simditor.min.js"></script>
+<script src="bower_components/ng.simditor/dist/js/ng-simditor.js"></script>
 ```
 
 ```html
