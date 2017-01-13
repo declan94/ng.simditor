@@ -17,6 +17,7 @@
     <script src="controller.js"></script>
 </head>
 <body ng-app="ngSimditorExample" ng-controller="mainCtrl">
+    <button ng-click="clear()">Clear Content</button>
     <simditor config="simditorConfig" ng-model='content'></simditor>
     <h4>content: </h4>
     <p>{{content}}</p>

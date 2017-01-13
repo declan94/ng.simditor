@@ -65,4 +65,7 @@ angular
             console.info("content", $scope.content);
         };
 
+        $scope.clear = function () {
+            $scope.content = "";
+        };
     });
